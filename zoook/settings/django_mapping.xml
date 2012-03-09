@@ -489,7 +489,7 @@ if context['product_id']:
 
         <record model='base.external.mapping.line' id='djlpi02'>
             <field name='mapping_id' ref='zoook.dj07'/>
-            <field name='field_id' search="[('model_id','=','product.images'),('name','=','filename')]" model='ir.model.fields'/>
+            <field name='field_id' search="[('model_id','=','product.images'),('name','=','url')]" model='ir.model.fields'/>
             <field name='external_field'>filename</field>
             <field name='type'>out</field>
             <field name='external_type'>str</field>
